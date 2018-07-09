@@ -4,8 +4,8 @@ Even though I deleted the [Hue Sync app](https://www2.meethue.com/en-us/entertai
 
 #### Solution
 
-- Unload the extention with `sudo kextunload /Library/Extensions/HueSync.kext`.
+The given shell script unloads and deletes the kext file.
 
-- Delete it with `sudo rm /Library/Extentions/HueSync.kext`.
+Should anyone run into trouble launching the script do not forget to make it executable using `chmod a+x remover.sh` before executing the script with `./remover.sh`.
 
-Aaand you're good to go! 🎉
+Aaand that's basically it, you're good to go! 🎉
